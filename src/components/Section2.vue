@@ -1,7 +1,7 @@
 <template>
   <div class="section2">
     <div class="main-titles">
-      <h3>Since 2016</h3>
+      <h3>SINCE 2016</h3>
       <h1>
         &lt; We create from scratch
         <br />amazing Shopify />
@@ -26,7 +26,7 @@ $maincolor: #ffcd1a;
 $mainfont: "Karla";
 
 .section2 {
-  height: 90vh;
+  height: 65vh;
 }
 
 h1 {
