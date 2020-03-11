@@ -2,7 +2,7 @@
   <div class="navbar">
     <div class="block-left">
       <!-- <img src="@/assets/Navbar/logo.png" alt="logoZerance" /> -->
-      <div class="img"></div>
+      <div class="img-nav"></div>
       <h2>
         Studio
         <br />Zerance.
@@ -33,10 +33,10 @@ export default {
   height: 20vh;
 }
 
-.img {
+.img-nav {
   background-image: url("../assets/Navbar/logo.png");
   width: 125px;
-  height: 650px;
+  height: 630px;
   background-size: contain;
   background-repeat: no-repeat;
 }
