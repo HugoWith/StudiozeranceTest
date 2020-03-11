@@ -1,12 +1,12 @@
 <template>
-  <div class="home">
-    <p>test</p>
+  <div class="section3">
+    <div class="logo-clients"></div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Home",
+  name: "Section3",
   data() {
     return {};
   }
@@ -17,14 +17,9 @@ export default {
 <style lang="scss">
 $maincolor: #ffcd1a;
 $mainfont: "Karla";
-h2 {
-  font-family: $mainfont;
-  font-size: 32px;
-  font-weight: bolder;
-}
 
-p {
-  color: $maincolor;
-  font-family: $mainfont;
+.section3 {
+  height: 90vh;
+  background-color: black;
 }
 </style>
