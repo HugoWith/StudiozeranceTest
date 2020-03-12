@@ -59,7 +59,7 @@ J’ai décidé de cacher les menus, pour un client j’aurais peut-être utilis
 
 # SECTION2 > Landing page 
 
-Temps passé: 20mn 
+Temps passé: 20mn <br/>
 Encore une fois pas de difficulté particulière. 
 
 # SECTION3 > Portfolio
