@@ -1,27 +1,59 @@
 <template>
-  <div class="section3">
+  <div class="section3" id="nosclients">
     <div class="wrapper">
       <h3>NOS CLIENTS SONT GÉNIAUX</h3>
       <div class="logo-clients">
-        <img src="../assets/Section_3/Clients/Yoko.jpg" alt="logoyoko" />
+        <a href="https://yokoshop.com">
+          <img src="../assets/Section_3/Clients/Yoko.jpg" alt="logoyoko"
+        /></a>
         <img src="../assets/Section_3/Clients/webedia.jpg" alt="logowebedia" />
         <img src="../assets/Section_3/Clients/avnier.jpg" alt="logoavnier" />
-        <img src="../assets/Section_3/Clients/seasonly.jpg" alt="logoseasonly" />
+        <img
+          src="../assets/Section_3/Clients/seasonly.jpg"
+          alt="logoseasonly"
+        />
         <img src="../assets/Section_3/Clients/joone.jpg" alt="logojoone" />
         <img src="../assets/Section_3/Clients/blown.jpg" alt="logoblown" />
         <img src="../assets/Section_3/Clients/boxtal.jpg" alt="logoboxtal" />
-        <img src="../assets/Section_3/Clients/thefamily.jpg" alt="logothefamily" />
-        <img src="../assets/Section_3/Clients/bonsoirs.jpg" alt="logobonsoirs" />
+        <img
+          src="../assets/Section_3/Clients/thefamily.jpg"
+          alt="logothefamily"
+        />
+        <img
+          src="../assets/Section_3/Clients/bonsoirs.jpg"
+          alt="logobonsoirs"
+        />
         <img src="../assets/Section_3/Clients/fempo.jpg" alt="logothefempo" />
-        <img src="../assets/Section_3/Clients/bigfernand.jpg" alt="logothebigfernand" />
-        <img src="../assets/Section_3/Clients/lafourche.jpg" alt="logothelafourche" />
-        <img src="../assets/Section_3/Clients/riviera.jpg" alt="logotheriviera" />
-        <img src="../assets/Section_3/Clients/cdiscount.jpg" alt="logothecdiscount" />
+        <img
+          src="../assets/Section_3/Clients/bigfernand.jpg"
+          alt="logothebigfernand"
+        />
+        <img
+          src="../assets/Section_3/Clients/lafourche.jpg"
+          alt="logothelafourche"
+        />
+        <img
+          src="../assets/Section_3/Clients/riviera.jpg"
+          alt="logotheriviera"
+        />
+        <img
+          src="../assets/Section_3/Clients/cdiscount.jpg"
+          alt="logothecdiscount"
+        />
         <img src="../assets/Section_3/Clients/tealer.jpg" alt="logothetealer" />
-        <img src="../assets/Section_3/Clients/respire.jpg" alt="logotherespire" />
-        <img src="../assets/Section_3/Clients/rondorff.jpg" alt="logotherondorff" />
+        <img
+          src="../assets/Section_3/Clients/respire.jpg"
+          alt="logotherespire"
+        />
+        <img
+          src="../assets/Section_3/Clients/rondorff.jpg"
+          alt="logotherondorff"
+        />
         <img src="../assets/Section_3/Clients/saeve.jpg" alt="logothesaeve" />
-        <img src="../assets/Section_3/Clients/franklin.jpg" alt="logothefranklin" />
+        <img
+          src="../assets/Section_3/Clients/franklin.jpg"
+          alt="logothefranklin"
+        />
         <img src="../assets/Section_3/Clients/mars.jpg" alt="logothemars" />
         <!-- <img src="./assets/Section_3/Clients/webedia.jpg" alt="logowebedia" /> -->
       </div>
@@ -57,6 +89,11 @@ $mainfont: "Karla";
   }
 }
 
+@media (max-width: 600px) {
+  .section3 {
+    height: 80vh;
+  }
+}
 .wrapper {
   width: 85vw;
   margin: 0 auto;
@@ -72,6 +109,16 @@ $mainfont: "Karla";
     margin: 0 auto;
     width: 60%;
     height: auto;
+  }
+  a {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .logo-clients {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 </style>

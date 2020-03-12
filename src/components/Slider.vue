@@ -2,12 +2,13 @@
   <div class="slider">
     <VueSlickCarousel v-bind="options">
       <slide class="section bg-seasonly">
-        <img src="../assets/Slider/Artboard_2.jpg" alt />
+        <img src="../assets/Slider/Artboard_2.jpg" alt class="slider-img" />
         <div class="block-text-seasonly">
-          <h3>FROM SCRATCH /</h3>
+          <h3 class="card-title">FROM SCRATCH /</h3>
           <img
             src="../assets/Section_3/Clients/seasonly_white.png"
             alt="logoseasonly"
+            class="logo-img"
           />
           <p>
             Développement site from scratch et d’un quiz personnalisé avec
@@ -23,12 +24,13 @@
       </slide>
 
       <slide class="section">
-        <img src="../assets/Slider/Artboard_1.jpg" alt />
+        <img src="../assets/Slider/Artboard_1.jpg" alt class="slider-img" />
         <div class="block-text-joone">
-          <h3>RECHARGE FEATURES /</h3>
+          <h3 class="card-title">RECHARGE FEATURES /</h3>
           <img
             src="../assets/Section_3/Clients/joone_white.png"
             alt="logojoone"
+            class="logo-img"
           />
           <p>
             - Développement front-end <br /><br />
@@ -71,9 +73,17 @@ export default {
 $maincolor: #ffcd1a;
 $mainfont: "Karla";
 
-// .slider {
-//   height: 100vh;
-// }
+@media (max-width: 600px) {
+  .slider {
+    height: 215px;
+  }
+}
+
+@media (max-width: 600px) {
+  .slider-img {
+    width: 100vw;
+  }
+}
 
 .bg-slide {
   width: 100%;
@@ -108,6 +118,7 @@ $mainfont: "Karla";
   img {
     margin: 0 auto;
   }
+
   p {
     margin: 20px auto;
     font-family: $mainfont;
@@ -129,13 +140,33 @@ $mainfont: "Karla";
     font-style: italic;
     font-size: 31px;
   }
+}
+@media (max-width: 600px) {
+  .block-text-seasonly {
+    height: 30vh;
+    h3 {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 10px;
+    }
+    p {
+      font-size: 8px;
+      padding: 5px;
+    }
+  }
+}
+.underline-img-seasonly {
+  background-image: url("../assets/Section_2/inderline.png");
+  width: 200px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: -4% 30%;
+}
+@media (max-width: 600px) {
   .underline-img-seasonly {
-    background-image: url("../assets/Section_2/inderline.png");
-    width: 200px;
-    height: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: -4% 30%;
+    width: 50px;
   }
 }
 
@@ -170,6 +201,28 @@ $mainfont: "Karla";
     background-size: contain;
     background-repeat: no-repeat;
     margin: -4% 30%;
+  }
+}
+
+@media (max-width: 600px) {
+  .block-text-joone {
+    transform: translateY(-65%) translateX(100%);
+    h3 {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 10px;
+    }
+    p {
+      font-size: 8px;
+      padding: 5px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .logo-img {
+    width: 10vh;
   }
 }
 </style>

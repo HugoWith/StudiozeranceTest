@@ -9,11 +9,13 @@
       </h2>
     </div>
     <div class="block-right">
-      <h2>Nos Clients</h2>
-      <h2>Notre Offre</h2>
-      <h2>Le Studio</h2>
-      <h2>Contact</h2>
+      <a href=""> <h2>Nos Clients</h2></a>
+      <a href=""> <h2>Notre Offre</h2></a>
+      <a href=""> <h2>Le Studio</h2></a>
+      <a href=""> <h2>Contact</h2></a>
     </div>
+
+    <div id="nosclients"></div>
   </div>
 </template>
 
@@ -30,6 +32,11 @@ export default {
 $maincolor: #ffcd1a;
 $mainfont: "Karla";
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -43,7 +50,14 @@ $mainfont: "Karla";
   background-size: contain;
   background-repeat: no-repeat;
 }
-
+@media (max-width: 600px) {
+  .img-nav {
+    width: 80px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
 .block-left {
   display: flex;
   padding: 10px;
@@ -79,6 +93,11 @@ $mainfont: "Karla";
     color: #ffcd1a;
     width: 100%;
     left: 0;
+  }
+}
+@media (max-width: 600px) {
+  .block-right {
+    display: none;
   }
 }
 </style>

@@ -64,4 +64,14 @@ p {
   background-repeat: no-repeat;
   margin: -2% 50%;
 }
+
+@media (max-width: 600px) {
+  .underline-img {
+    width: 200px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: -5% 40%;
+  }
+}
 </style>
