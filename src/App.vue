@@ -4,7 +4,8 @@
     <Section2 />
     <Section3 />
     <Slider />
-    <router-view />
+    <Footer />
+    <!-- <router-view /> -->
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import Navbar from "@/components/Navbar";
 import Section2 from "@/components/Section2";
 import Section3 from "@/components/Section3";
 import Slider from "@/components/Slider";
+import Footer from "@/components/Footer";
 
 export default {
   name: "app",
@@ -20,7 +22,8 @@ export default {
     Navbar,
     Section2,
     Section3,
-    Slider
+    Slider,
+    Footer
   }
 };
 </script>

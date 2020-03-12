@@ -120,6 +120,14 @@ $mainfont: "Karla";
     margin: 0 auto;
     font-family: $mainfont;
     text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+
+  h2:hover {
+    transition: all 0.5s ease-in-out;
+    font-style: italic;
+    font-size: 31px;
   }
   .underline-img-seasonly {
     background-image: url("../assets/Section_2/inderline.png");
