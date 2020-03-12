@@ -7,7 +7,7 @@
           Tropico / Qu’est ce qui est jaune et qui attend ?
           <span
             >Good cat Bad cat / Frédéric Diefental / Qu’est ce qui est jaune et
-            qui attend ?</span
+            qui attend ? Quand c’est trop, c’est Tropico /</span
           >
         </h2>
       </div>
@@ -34,9 +34,6 @@ $mainfont: "Karla";
   height: 100px;
   position: relative;
   overflow: hidden;
-
-  /*-webkit-animation-iteration-count: 2,2,2,2; /* Chrome, Safari, Opera */
-  /*animation-iteration-count: 2,2,2,2;*/
 }
 
 .words-1 {
@@ -52,6 +49,7 @@ $mainfont: "Karla";
   top: 0;
   left: 0;
   margin-bottom: 40px;
+  margin-top: 30px;
   animation: slide1 20s linear infinite;
 }
 

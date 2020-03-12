@@ -30,4 +30,24 @@ export default {
 
 <style lang="scss">
 $maincolor: #ffcd1a;
+$mainfont: "Karla";
+
+// CSS GLOBAUX
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: $mainfont;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+p {
+  color: $maincolor;
+  font-family: $mainfont;
+}
 </style>

@@ -20,7 +20,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
 $maincolor: #ffcd1a;
 $mainfont: "Karla";
@@ -63,5 +62,15 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
   margin: -2% 50%;
+}
+
+@media (max-width: 600px) {
+  .underline-img {
+    width: 200px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: -5% 40%;
+  }
 }
 </style>
