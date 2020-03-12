@@ -32,6 +32,8 @@ export default {
 $maincolor: #ffcd1a;
 $mainfont: "Karla";
 
+// CSS GLOBAUX
+
 * {
   box-sizing: border-box;
   margin: 0;

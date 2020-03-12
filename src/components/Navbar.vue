@@ -45,7 +45,7 @@ a {
 .img-nav {
   background-image: url("../assets/Navbar/logo.png");
   width: 125px;
-  height: 580px;
+  height: 550px;
   background-size: contain;
   background-repeat: no-repeat;
 }
