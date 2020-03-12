@@ -88,7 +88,7 @@ Je m’étais donné entre 4 et 5h pour réaliser cette Homepage. J’ai mis un 
 * La police est une GoogleFont, mais pour l’intégrer en local j’aurai utilisé @Fontface 😊
 * Il faut noter qu’il y’a eu un long travail de préparation de l’application avec les images exportées de Photoshop ainsi que le choix de la stack qui avec un peu de recul aurait pu être plus optimale. 
 
-Temps total: environ 5h <br/><br/>
+Temps total: environ 5h + 30mn pour écrire le ReaMe<br/><br/>
 
 Pour le reste pas de difficulté je me suis bien éclaté à faire ce test, en plus je trouve votre Home et le ton du site canon donc ça aide 😊.<br/>
 Je suis assez curieux de savoir quelle animation CSS vous avez utilisé dans le bandeau.<br/>
