@@ -27,6 +27,9 @@ export default {
 </script>
 
 <style lang="scss">
+$maincolor: #ffcd1a;
+$mainfont: "Karla";
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -54,6 +57,28 @@ export default {
   justify-content: space-evenly;
   h2 {
     margin-left: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  h2:hover {
+    color: #ffcd1a;
+  }
+  h2:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 6px;
+    left: 0%;
+    position: relative;
+    background: #ffcd1a;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  h2:hover:after {
+    color: #ffcd1a;
+    width: 100%;
+    left: 0;
   }
 }
 </style>

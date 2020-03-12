@@ -121,11 +121,11 @@ $mainfont: "Karla";
     font-family: $mainfont;
     text-align: center;
     cursor: pointer;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
 
   h2:hover {
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
     font-style: italic;
     font-size: 31px;
   }
