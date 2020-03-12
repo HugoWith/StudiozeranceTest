@@ -53,7 +53,7 @@ $mainfont: "Karla";
     text-align: center;
     font-weight: lighter;
     color: white;
-    padding-top: 70px;
+    padding-top: 90px;
   }
 }
 
@@ -67,7 +67,7 @@ $mainfont: "Karla";
   justify-content: center;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  //   grid-auto-rows: minmax(100px, auto);
   img {
     margin: 0 auto;
     width: 60%;
