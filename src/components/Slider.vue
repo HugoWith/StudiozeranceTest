@@ -145,6 +145,7 @@ $mainfont: "Karla";
 @media (max-width: 600px) {
   .block-text-seasonly {
     height: 30vh;
+    padding: 5px;
     h3 {
       font-size: 12px;
     }
@@ -152,7 +153,7 @@ $mainfont: "Karla";
       font-size: 10px;
     }
     p {
-      font-size: 8px;
+      font-size: 7px;
       padding: 5px;
     }
   }
@@ -208,6 +209,8 @@ $mainfont: "Karla";
 @media (max-width: 600px) {
   .block-text-joone {
     transform: translateY(-65%) translateX(100%);
+    padding: 5px;
+    height: 65%;
     h3 {
       font-size: 12px;
     }
@@ -215,8 +218,8 @@ $mainfont: "Karla";
       font-size: 10px;
     }
     p {
-      font-size: 8px;
-      padding: 5px;
+      font-size: 7px;
+      padding: 0px;
     }
   }
 }
