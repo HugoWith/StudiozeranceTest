@@ -32,10 +32,10 @@ Voici donc le ReadMe qui fait suite au test front. 😊
 # LANCER L’APP
 J’ai pris le partie de faire une App avec une base de VueJS. Ce choix est à la fois un bon choix pour moi, mais il s’est avéré qu’il avait aussi des inconvénients que je détaillerai par la suite. 
 
-*Installer Npm
-*npm i > pour installer les dépendances
-*npm install -g @vue/cli > pour initier vueJS
-*npm run serve > pour lancer le server
+-Installer Npm
+-npm i > pour installer les dépendances
+-npm install -g @vue/cli > pour initier vueJS
+-npm run serve > pour lancer le server
 
 L’app est plutôt a regarder en 80% de l’écran, pour le confort visuel
 
@@ -82,11 +82,11 @@ Le footer n’est également pas parfait il y’a un léger décalage de l’ani
 # BILAN
 Je m’étais donné entre 4 et 5h pour réaliser cette Homepage. J’ai mis un peu plus de temps avec quelques manques:
 
-*Les ancres au click sur le menu de la navbar pour un smoothScroll (c’est de ma faute j’aurais du utiliser du VanillaJS ou le router de VueJS)
-*la personnalisation de la flèche du carrousel 
-*Le rendu Mobile pourrait être plus optimisé. J’aurais pu utiliser Bootstrap pour utiliser des classes rapides de taille d’écran. 
-*La police est une GoogleFont, mais pour l’intégrer en local j’aurai utilisé @Fontface 😊
-*Il faut noter qu’il y’a eu un long travail de préparation de l’application avec les images exportées de Photoshop ainsi que le choix de la stack qui avec un peu de recul aurait pu être plus optimale. 
+-Les ancres au click sur le menu de la navbar pour un smoothScroll (c’est de ma faute j’aurais du utiliser du VanillaJS ou le router de VueJS)
+-la personnalisation de la flèche du carrousel 
+-Le rendu Mobile pourrait être plus optimisé. J’aurais pu utiliser Bootstrap pour utiliser des classes rapides de taille d’écran. 
+-La police est une GoogleFont, mais pour l’intégrer en local j’aurai utilisé @Fontface 😊
+-Il faut noter qu’il y’a eu un long travail de préparation de l’application avec les images exportées de Photoshop ainsi que le choix de la stack qui avec un peu de recul aurait pu être plus optimale. 
 
 Temps total: environ 5h 
 
