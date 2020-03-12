@@ -1,5 +1,7 @@
 <template>
   <div class="slider">
+    <!-- Utilisation de la Librarie VueSlickCarousel -->
+
     <VueSlickCarousel v-bind="options">
       <slide class="section bg-seasonly">
         <img src="../assets/Slider/Artboard_2.jpg" alt class="slider-img" />
@@ -46,8 +48,8 @@
 <script>
 import VueSlickCarousel from "vue-slick-carousel";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
-// optional style for arrows & dots
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+
 export default {
   name: "Slider",
   components: { VueSlickCarousel },
@@ -68,7 +70,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
 $maincolor: #ffcd1a;
 $mainfont: "Karla";
@@ -93,7 +94,7 @@ $mainfont: "Karla";
 
 .slick-next {
   position: absolute;
-  right: 20%;
+  right: 5%;
   height: 50px;
   width: 50px;
 }
@@ -109,7 +110,7 @@ $mainfont: "Karla";
 .block-text-seasonly {
   background-color: white;
   width: 30vw;
-  height: 60vh;
+  height: 65%;
   position: absolute;
   right: 10%;
   top: 50%;
@@ -173,7 +174,7 @@ $mainfont: "Karla";
 .block-text-joone {
   background-color: white;
   width: 30vw;
-  height: 50vh;
+  height: 55%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%) translateX(100%);
